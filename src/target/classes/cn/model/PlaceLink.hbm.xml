@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29/07/2018 3:47:52 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="cn.model.PlaceLink" table="textLink">
+        <id name="sessionId" type="java.lang.String" access="field">
+            <column name="SESSIONID" />
+            <generator class="assigned" />
+        </id>
+        <property name="url" type="java.lang.String" access="field">
+            <column name="URL" />
+        </property>
+        <property name="pagename" type="java.lang.String" access="field">
+            <column name="PAGENAME" />
+        </property>
+    </class>
+</hibernate-mapping>

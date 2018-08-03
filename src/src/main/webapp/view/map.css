@@ -1,0 +1,47 @@
+@charset "UTF-8";
+#map,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#panel {
+  width: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  float: right;
+  margin: 10px;
+}
+
+#color-palette {
+  clear: both;
+  width: 400px;
+  float: right;
+}
+
+.color-button {
+  width: 14px;
+  height: 14px;
+  font-size: 0;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+}
+
+#delete-button {
+  margin-top: 5px;
+}
+#calculate:{
+	margin-top: 5px;
+}
+#clusterwords {
+    overflow-x:hidden;
+    overflow-y:auto;
+    display:-webkit-box;
+    display:-moz-box;
+    width:400px;
+    height:50px;
+}
+
